@@ -1,6 +1,8 @@
 Tic-Tac-Tornadoes
 =================
 
+The app is now on Google Play! Here it is: https://play.google.com/store/apps/details?id=com.huchley.ben.ttt
+
 This is a touchscreen implementation of the game Tic-Tac-Tornadoes
 
 The goal is to get 5 pieces (tornadoes don't count) in a row
