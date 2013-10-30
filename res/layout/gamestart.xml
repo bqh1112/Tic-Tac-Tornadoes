@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Welcome to Tic-Tac-Tornadoes!\nIn this game, the goal is to get a 5-in-a-row of pieces on a 7 by 7 board.\nHowever, both sides can play 3 Tornadoes and 2 Tornado Cancels.\nTornadoes change every piece of the opposing player in their row or column to a ghost.\nGhosts are effectively blank pieces, but they turn back into pieces if the Tornado's effect is lifted (explained below).\nTornado cancels cancel a tornado, replacing it with a blocked square that does nothing.\nIf there are two tornadoes in the same row or column, neither affects the area between them and they block each other's effect beyond them.\nTornadoes do not count as pieces, but they take up space.\nHave fun!\nCopyright 2012 Ben Huchley, Albert Zhao All rights reserved."
+		android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="13sp"></TextView>
+	<Spinner android:layout_width="match_parent" android:id="@+id/x"
+		android:layout_height="wrap_content" android:textSize = "20sp"></Spinner>
+	<TextView android:text="vs." android:id="@+id/textView2"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<Spinner android:layout_width="match_parent" android:id="@+id/o"
+		android:layout_height="wrap_content" android:textSize = "20sp"></Spinner>
+	<Button android:text="Start!" android:id="@+id/go"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

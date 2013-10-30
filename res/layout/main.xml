@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:text="This is where info appears."
+		android:id="@+id/info" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+	<TableRow android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/tableRow2">
+		<RadioButton android:text="Piece" android:id="@+id/pieceButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:text="Tornado" android:id="@+id/tornadoButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:text="Tornado Cancel" android:id="@+id/cancelButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+	</TableRow>
+	<TableRow android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/tableRow3">
+		<Button android:id="@+id/rules" android:layout_height="wrap_content"
+			android:text="Rules" android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/quit" android:layout_height="wrap_content"
+			android:text="Quit" android:layout_width="wrap_content"></Button>
+	</TableRow>
+	<TableLayout android:id="@+id/tableLayout1"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+		<TableRow android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:id="@+id/tableRow1">
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_weight="1" android:layout_width="fill_parent"
+				android:scaleType="fitXY" android:src="@drawable/blank"></ImageView>
+		</TableRow>
+	</TableLayout>
+
+	<!--
+		<TextView android:layout_width="fill_parent" android:id="@+id/board"
+		android:textSize="20dp" android:layout_height="wrap_content"
+		android:text="This is where the board appears." /> <Spinner
+		android:id="@+id/row" android:layout_height="wrap_content"
+		android:layout_width="match_parent"></Spinner> <Spinner
+		android:id="@+id/col" android:layout_height="wrap_content"
+		android:layout_width="match_parent"></Spinner> <Button
+		android:text="Play" android:id="@+id/go"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></Button>
+	-->
+
+</LinearLayout>
